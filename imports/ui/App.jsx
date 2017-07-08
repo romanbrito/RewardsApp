@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+import Signin from './wrappers/Signin';
+
 export default class App extends Component {
 
   render() {
     return (
-      <h1>Welcome to meteor-react</h1>
+      <div>
+        <Signin/>
+      </div>
     );
   }
 }
